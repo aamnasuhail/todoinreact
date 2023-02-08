@@ -1,0 +1,58 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(247, 239, 229);
+}
+.container {
+  margin: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #c3acd0;
+}
+.form > input {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-family: inherit;
+  margin: 1rem;
+}
+.form > textarea {
+  font-size: 1.4rem;
+  padding: 1rem;
+  font-family: inherit;
+  margin: 1rem;
+}
+.form > button {
+  color: #fffbf5;
+  background-color: #674188;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.form > button:hover {
+  background-color: #c3acd0;
+  color: #674188;
+}
+.heading {
+  font-size: 3rem;
+  color: rgb(103, 65, 136);
+}
+
+.task {
+  color: rgb(55, 41, 72);
+  background-color: #ffcaca;
+  padding: 2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.description {
+  font-size: 1.4rem;
+}
